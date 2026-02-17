@@ -1,0 +1,4 @@
+/* Base styles for ProTrade Journal */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
