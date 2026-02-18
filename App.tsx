@@ -41,7 +41,7 @@ const App: React.FC = () => {
     if (saved) setTrades(JSON.parse(saved));
 
     // Initialize Audio
-    audioRef.current = new Audio('/components/my hot song.mp3');
+    audioRef.current = new Audio('/song.mp3');
     audioRef.current.loop = true;
 
     return () => {
@@ -124,7 +124,7 @@ const App: React.FC = () => {
               className={`relative cursor-pointer group w-12 h-12 rounded-full overflow-hidden border-2 border-slate-200 dark:border-slate-700 transition-all duration-500 shadow-lg ${isMusicPlaying ? 'logo-playing' : 'hover:border-indigo-500'}`}
             >
               <img
-                src="/components/brijesh singh1.jpg"
+                src="/profile.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
